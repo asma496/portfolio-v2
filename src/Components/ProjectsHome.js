@@ -130,18 +130,6 @@ const ProjectsHome = () => {
                   </Link>
                 </Typography>
               </Hidden>
-              <ul className={classes.iconList}>
-                {item.skills.map((skill) => (
-                  <li key={uuidv4()}>
-                    <Grow in timeout={4000}>
-                      <img src={UrlIcons[skill]} alt="icon-skill" className={classes.icon} />
-                    </Grow>
-                  </li>
-                ))}
-              </ul>
-              <Typography className={classes.text} variant="body1">
-                {item.description}
-              </Typography>
             </Grid>
           </Grid>
         ))}

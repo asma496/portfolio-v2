@@ -42,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
   },
   img: {
-    width: '6rem',
+    width: '5rem',
     boxShadow: '0px 10px 10px 0px gray',
     borderRadius: '50%',
   },

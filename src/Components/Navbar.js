@@ -101,12 +101,12 @@ const Navbar = ({ setComponent }) => {
             </IconButton>
             <Divider orientation="vertical" flexItem />
             <Hidden xsDown>
-              <Button
+              {/* <Button
                 onClick={() => handleComponent(ExperienceHome)}
                 className={classes.navItem}
               >
                 {experience}
-              </Button>
+              </Button> */}
               <Divider orientation="vertical" flexItem />
             </Hidden>
             <Hidden smDown>
@@ -156,12 +156,12 @@ const Navbar = ({ setComponent }) => {
         >
           {projects}
         </Button>
-        <Button
+        {/* <Button
           onClick={() => handleClose(ExperienceHome)}
           className={classes.link}
         >
           {experience}
-        </Button>
+        </Button> */}
         <Button
           onClick={() => handleClose(EducationHome)}
           className={classes.link}

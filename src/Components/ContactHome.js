@@ -51,7 +51,7 @@ const useStyles = makeStyles((theme) => ({
   },
   form: {
     display: 'flex',
-    flexDirection: 'column',
+     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -59,12 +59,16 @@ const useStyles = makeStyles((theme) => ({
     textAlign: 'center',
     padding: '0 2rem',
   },
+  i:{
+    margin: 'auto',
+    marginLeft:'200px',
+  }
 }));
 
 const emptyEmail = {
   from_name: '',
   from_email: '',
-  to_name: 'AnthonyTC',
+  to_name: 'asma496',
   message_html: '',
 };
 
@@ -76,10 +80,6 @@ const ContactHome = () => {
   const [message, setMessage] = useState(null);
   const [email, setEmail] = useState(emptyEmail);
 
-  // const googleMapURL = `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${googleMapsKey}`;
-  // const containerElement = <div style={{ height: '100%' }} />;
-  // const mapElement = <div style={{ height: '100%' }} />;
-  // const loadingElement = <CircularProgress />;
 
   const handleChange = (e) => {
     e.persist();
@@ -106,12 +106,12 @@ const ContactHome = () => {
     <Slide direction="up" in timeout={1000}>
       <Grid component="section" container className={classes.root}>
         <div className={classes.background} />
-        <Grid item xs={12}>
+        <Grid item xs={12} >
           <Typography className={classes.title} variant="h2">
             {title}
           </Typography>
         </Grid>
-        <Grid item xs={12} md={6} className={classes.columnForm}>
+        <Grid item xs={12} md={12} className={classes.columnForm}>
           <form onSubmit={handleSubmit} className={classes.form}>
             <TextField
               margin="dense"
@@ -161,21 +161,6 @@ const ContactHome = () => {
             )}
           </form>
         </Grid>
-        {/* <Hidden smDown>
-          <Grid item xs={12} md={6} className={classes.columnImg}>
-            <Grow in timeout={3000}>
-              <GoogleMaps
-                googleMapURL={googleMapURL}
-                containerElement={containerElement}
-                mapElement={mapElement}
-                loadingElement={loadingElement}
-                zoom={zoom}
-                lat={parseFloat(lat)}
-                lng={parseFloat(lng)}
-              />
-            </Grow>
-          </Grid>
-        </Hidden> */}
       </Grid>
     </Slide>
   );
