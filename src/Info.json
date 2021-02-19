@@ -42,17 +42,26 @@
     "projects": [
       {
         "title": "Company WebSite",
-        "live": "https://asma-ashraf-project1.netlify.app",
-        "source": "https://github.com/asma496/practice-web.git",
-        "screenshots": ["https://github.com/asma496/Bootstrap-work/blob/master/screen.PNG"],
+        "live": "https://company-portfolio-site.netlify.app/",
+        "source": "https://github.com/asma496/Bootstrap-work",
+        "screenshots": ["https://github.com/asma496/portfolio-v2/blob/master/src/Images/screen.png?raw=true"],
         "pinned": true,
         "mobile": false
       },
       {
         "title": "Meal Finder Website",
-        "live": "https://asma-ashraf-project3.netlify.app/",
-        "source": "https://github.com/asma496/pacman",
-        "screenshots": ["https://github.com/asma496/pacman/raw/master/screenshots/pic.jpeg"],
+        "live": "https://meal-finder-site.netlify.app/",
+        "source": "https://github.com/asma496/Meal-finder",
+        "screenshots": ["https://github.com/asma496/Meal-finder/blob/master/meal.jpg?raw=true"],
+        "pinned": true,
+        "mobile": false
+      },
+
+      {
+        "title": "Todo App",
+        "live": "https://meal-finder-site.netlify.app/",
+        "source": "https://github.com/asma496/Meal-finder",
+        "screenshots": ["https://github.com/asma496/Meal-finder/blob/master/meal.jpg?raw=true"],
         "pinned": true,
         "mobile": false
       }
