@@ -7,11 +7,8 @@
       "location": "https://i.pinimg.com/236x/26/80/40/2680403a8417495b1977c370269e6f5d--chibi-kawaii.jpg",
       "key": "anthony-tapia"
     },
-<<<<<<< HEAD
+
     "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "React", "Material-UI", "Redux",  "Redux-toolkit", "MongoDB",  "express", "gatsby", "Git", "NodeJS"],
-=======
-    "skills": ["HTML", "CSS", "Bootstrap", "JavaScript", "React", "Material-UI", "Redux",  "NodeJS","express","MongoDB",  "SQL", "MySql", "Git", "Java"],
->>>>>>> a5050e876bdb7a1c941f6c0e1f3bb1ffdfbb46f5
     "background": "https://portfolio-atc.s3-sa-east-1.amazonaws.com/bg-volcano.jpg"
   },
   "NavbarInfo" : {
