@@ -131,10 +131,29 @@ const ProjectsHome = () => {
                 </Typography>
               </Hidden>
             </Grid>
-          </Grid>
-        ))}
+
+
+
+
+
+
+
+
+
       </Grid>
-    </Slide>
+
+
+
+))};
+
+
+
+</Grid>
+
+
+
+
+ </Slide>
   );
 };
 
